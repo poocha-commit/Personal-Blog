@@ -1,0 +1,55 @@
+<%- include("partials/header.ejs") %>
+<div class="contact">
+<div class="contactform">
+    <h1>
+        I'd love to hear from you!
+    </h1>
+   
+        <% if (messgsent) {%>
+ <div>
+<h3 class="successmessg">Message Sent</h3>
+    </div>
+
+    <% }%>
+    <form action="/sendmessg" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Full Name" required><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message here....." required> </textarea><br>
+        
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+<div class="contactinfo">
+<div>
+    <!-- <h1>Check us out!!</h1> -->
+    <h3>Email</h3>
+    <p> <a href="mailto:poojasaj3@gmail.com">poojasaj3@gmail.com</a></p>
+</div>
+<div>
+   <h3>Phone</h3>
+    <p> <a href="tel:9745442500">3839490202</a></p>
+
+</div>
+<div>
+    <h3>Address</h3>
+    <p>123 Cool Street<br>Code Town,Qatar</p>
+</div>
+
+   <div class="social-links" aria-label="Social media links">
+      
+      <a href="https://www.linkedin.com/in/pooja-satheesh-0567112b8/ " target="_blank" aria-label="LinkedIn">
+        <img src="/images/Platform=LinkedIn, Color=Original.svg" alt="LinkedIn" width="44" height="44" />
+      </a>
+      <a href="https://www.instagram.com/_.pxxja.___/" target="_blank" aria-label="Instagram">
+        <img src="/images/Platform=Instagram, Color=Original.svg" alt="Instagram" width="44" height="44" />
+      </a>
+    
+    </div>
+    </div>
+    </div>
+<%- include("partials/footer.ejs") %>

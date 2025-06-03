@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Indie+Flower&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+html,body{
+    height:100%;
+    background-color:#e8dde1;
+}
+
+body{
+    margin:0;
+    font-family: "Indie Flower", cursive;
+
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  
+}
+.curve{
+  position: relative;
+}
+.custom-shape-divider-top-1748856929 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1748856929 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 166px;
+}
+
+.custom-shape-divider-top-1748856929 .shape-fill {
+    
+    fill: #e8dde1;}
+.nav{
+    margin:0;
+    display:flex;
+    justify-content: space-between;
+    
+    box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.25); 
+background: #F757AD;
+background: linear-gradient(40deg, rgba(247, 87, 173, 1) 1%, rgba(243, 99, 126, 1) 50%, rgba(242, 105, 96, 1) 100%);
+
+     flex-direction: column;
+}
+footer{
+ background: #F757AD;
+background: linear-gradient(40deg, rgba(247, 87, 173, 1) 1%, rgba(243, 99, 126, 1) 50%, rgba(242, 105, 96, 1) 100%);
+
+}
+.nav h1 {
+  justify-content: center; 
+  align-self: center;
+  display:flex;
+  flex-grow:1;
+  font-size: 6em;
+  color:#e8dde1;
+  font-weight: 700;
+  font-family: "Rock Salt", cursive;
+}
+
+
+.nav div{
+    align-self: center;
+    display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  margin-bottom: 50px;
+  border: #3b1e1e;
+}
+.nav div a{
+    font-size: 4em;
+    margin: 0 40px;
+    color:rgb(232, 221, 225);
+    text-decoration: none;
+}
+.nav div a:hover{
+   font-weight: bold;
+      transform: scale(1.05);
+}
+.content{
+ display:flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: justify;
+}
+.homepage-intro {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: "Indie Flower", cursive;
+  color: #3b1e1e;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+
+#centre-card{
+  font-size: 1.4em;
+}
+
+#centre-card:hover{
+  
+  transform: none !important;
+  transition: 0.7s ease !important;
+  background: #F757AD;
+background: linear-gradient(40deg, rgba(247, 87, 173, 1) 1%, rgba(243, 99, 126, 1) 50%, rgba(242, 105, 96, 1) 100%);
+
+}
+#centre-card:hover p{
+  
+  color:rgba(255, 255, 255, 0.9);
+  
+  
+}
+#centre-card:hover h1{
+  color:rgba(255, 255, 255, 0.9);
+  
+}
+#centre-card:hover .highlight{
+  color:rgba(255, 255, 255, 0.9);
+
+}
+#centre-card:hover .explore-link{
+  color:rgba(255, 255, 255, 0.9);
+  
+}
+
+
+.homepage-intro:hover {
+  transform: scale(1.05);
+  
+}
+
+.homepage-intro h1 {
+  font-size: 3.5em;
+  font-family: "Rock Salt", cursive;
+  color: #f26865;
+  margin-bottom: 20px;
+}
+
+.homepage-intro .highlight {
+  color: #f26960;
+}
+
+.homepage-intro p {
+  font-size:1.7em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color:#f3637e;
+}
+
+.homepage-intro:hover:not(#centre-card) p {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.explore-link {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #f26960;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.explore-link:hover {
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:rgba(255, 255, 255, 0.9);
+  box-shadow: 2px 0px 6px 2px rgba(0, 0, 0, 0.25);
+}
+
+footer p {
+  margin: 5px 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+#owner {
+  margin-top: 15px;
+}
+
+#copy {
+  margin-bottom: 15px;
+}
+.whole_blog{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin-bottom: 20px; /* Space below the button */
+  margin-top: 20px;
+
+}
+.content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 
+blogs */
+
+.btn_container{
+  display: flex;
+  justify-content: center;
+  position: sticky
+}
+
+.btn_create{
+  background-color: #f3637e;
+  color:#e8dde1;
+  padding:15px 25px;
+  font-weight: 700;
+  margin: 20px;
+  border-radius: 10em;
+  border-color: transparent;
+  font-size: 3rem;
+  font-family: "Indie Flower", cursive;
+}
+.btn_create:hover{
+  transform: scale(1.2);
+  transition: 0.5s ease;
+}
+.blog_container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:30px;
+  padding: 20px;
+}
+.blog{
+  width:25vw;
+  height:auto;
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
+  padding: 15px;
+  margin: 15px;
+
+color: #e8dde1;
+background-color: #fff7f5;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog:hover{
+  transform: scale(1.03);
+  box-shadow: 0 15px 30px rgba(242, 105, 96, 0.3);
+}
+.btns{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+}
+.btns form input {
+  background-color: #f26865;
+  color: white;
+  font-weight: bold;
+  padding: 8px 20px;
+  margin: 10px;
+  width: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btns form input:hover {
+  background-color: #25010d;
+  color: #fcdedf;
+  transform: translateY(-3px);
+}
+
+.blog h3 {
+  font-family: "Indie Flower", cursive;
+  color: #f26960;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.blog::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #fcdedf;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+.blog p {
+  font-size: 2rem;
+  font-family: "Indie Flower", sans-serif;
+  color: #f26865;
+}
+
+.blog p:nth-child(2), .blog p:nth-child(4) {
+  font-size: 1rem;
+  background-color: #fcdedf;
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #25010d;
+ 
+}
+.blog:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.viewBlog{
+  padding: 100px;
+  margin: 100px;
+  font-size: 2.7rem;
+  color: #25010d;
+  background-color: #fff7f5;
+  line-height: 1.6;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  
+}
+.viewBlog h1{
+  color: #f26960;
+  /* font-size: 3.5em; */
+  margin-bottom: 15px;
+}
+.viewBlog h5,.viewBlog h3{
+  font-family: "Poppins",sans-serif;
+  color:#25010d;
+  margin-bottom: 10px;
+}
+
+/* .viewBlog p{
+  margin-bottom: 20px;
+  color:#3b1e1e;
+} */
+
+.back{
+  padding-top: 30px;
+}
+.back form input{
+  
+  font-size: 2rem;
+  
+}
+.contactform{
+  margin:50px;
+  padding:40px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.contactform h1{
+  text-align: center;
+  font-size: 3rem;
+      color: #b74d19;
+      margin-bottom: 40px;
+}
+
+.contactform form{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.successmessg{
+  text-align: center;
+  font-size: 1.7rem;
+  background-color:#f26865;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin:15px 0;
+  color:#e8dde1;
+  font-family: "Poppins", sans-serif;
+
+}
+.contactform form label{
+  font-size: 2em;
+ font-weight: 600;
+ color: #f26865;
+
+}
+.contactform input[type="text"],
+    input[type="email"],
+    textarea {
+      padding: 15px 15px;
+      font-size: 1.4rem;
+      border: 3px solid #fcdedf;
+      border-radius: 10px;
+      transition: border-color 0.3s ease;
+      resize: vertical;
+    }
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+      border-color: #f26960;
+      
+      outline: none;
+    }
+    .contactform textarea{
+      min-height: 120px;
+    }
+
+    .contactform button{
+      background-color: #f3637e;
+      color: #e8dde1;
+      padding: 15px;
+      border-color: transparent;
+      border-radius: 10px;
+      font-size: 1.8em;
+      cursor: pointer;
+      font-weight: 700;
+      transition:background-color 0.3s ease, transform 0.2s ease;
+      font-family: "Indie Flower",cursive;
+      width: 400px;
+    }
+    .contactform button:hover{
+      background-color:#25010d;
+      transform: scale(1.05);
+    }
+    .contactinfo{
+      margin:10px;
+      padding:10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 40px;
+
+    }
+
+    .contactinfo div{
+      max-width: 250px;
+    }
+
+     .contactinfo h3 {
+      font-family: 'Rock Salt', cursive;
+      font-size: 1.8rem;
+      color: #f26960;
+      margin-bottom: 10px;
+    }
+    .contactinfo p, .contactinfo a {
+      text-decoration: none;
+      font-size: 1.7em;
+      color: #25010d;
+      font-weight: 700;
+      
+    }
+
+   .social-links{
+    padding: 20px;
+   
+   }
+   .social-links a{
+ padding: 10px;
+   }
+   .contact{
+    display: flex;
+    flex-wrap: wrap;
+  gap:30px;
+  padding: 20px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+   .contact div{
+    flex: 1;
+   }
+
+   .create{
+    
+    width: 80%;
+  /* margin: 30px; */
+  min-height:50vh;
+    margin: 50px auto;
+    background-color: #fff7f5;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+  
+   .create div{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+   }
+   .create label{
+    margin-bottom: 8px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #f26865;
+    
+   }
+input[type="text"], textarea{
+  padding: 20px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 1px solid #d5d4d4;
+  resize: vertical;
+  background-color: #ffffff;
+  transition: border-color 0.3s;
+  font-size: 2em;
+}
+
+input[type="text"]:focus,textarea:focus{
+  outline: none;
+  border-color:#f26865;
+}
+
+textarea{
+  min-height: 200px;
+  line-height: 1.5;
+  font-family: "Indie Flower",cursive;
+  font-size: 2.2rem;
+  font-weight: bold
+}
+
+button[type="submit"]{
+  background-color: #f26960;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Indie Flower",cursive;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+
+}
+
+button[type="submit"]:hover{
+  transform: scale(1.05);
+  background-color:#3b1e1e;
+}
